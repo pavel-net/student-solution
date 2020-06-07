@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>StudentApi</name>
+    </assembly>
+    <members>
+        <member name="M:StudentApi.Controllers.GroupController.GetGroups(Student.ServiceLayer.Models.GroupRequest)">
+            <summary>
+            Get list of groups
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:StudentApi.Controllers.GroupController.GetGroup(System.Int32)">
+            <summary>
+            Get group
+            </summary>
+        </member>
+        <member name="M:StudentApi.Controllers.GroupController.CreateGroup(System.String)">
+            <summary>
+            Create group
+            </summary>
+        </member>
+        <member name="M:StudentApi.Controllers.GroupController.UpdateGroup(Student.ServiceLayer.Models.GroupUpdateRequest)">
+            <summary>
+            Edit group
+            </summary>
+        </member>
+        <member name="M:StudentApi.Controllers.GroupController.DeleteGroup(System.Int32)">
+            <summary>
+            Delete group
+            </summary>
+        </member>
+        <member name="M:StudentApi.Controllers.GroupController.AddStudentToGroup(System.Int32,System.Int32)">
+            <summary>
+            Add student to group
+            </summary>
+        </member>
+        <member name="M:StudentApi.Controllers.GroupController.DeleteStudentFromGroup(System.Int32,System.Int32)">
+            <summary>
+            Delete student from group
+            </summary>
+        </member>
+        <member name="M:StudentApi.Controllers.StudentController.GetStudents(Student.ServiceLayer.Models.StudentRequest)">
+            <summary>
+            Get list of students
+            </summary>
+        </member>
+        <member name="M:StudentApi.Controllers.StudentController.GetStudent(System.Int32)">
+            <summary>
+            Get student
+            </summary>
+        </member>
+        <member name="M:StudentApi.Controllers.StudentController.CreateStudent(Student.ServiceLayer.Models.StudentCreateRequest)">
+            <summary>
+            Create student
+            </summary>
+        </member>
+        <member name="M:StudentApi.Controllers.StudentController.UpdateStudent(Student.ServiceLayer.Models.StudentUpdateRequest)">
+            <summary>
+            Edit student
+            </summary>
+        </member>
+        <member name="M:StudentApi.Controllers.StudentController.DeleteStudent(System.Int32)">
+            <summary>
+            Delete student
+            </summary>
+        </member>
+    </members>
+</doc>
